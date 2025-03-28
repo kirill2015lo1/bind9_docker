@@ -1,0 +1,13 @@
+$TTL 86400
+@       IN      SOA     srv-dns.tsuran.local. root.tsuran.local. (
+                             2025032801 ;
+                             604800     ;
+                             86400      ;
+                             2419200    ;
+                             604800 )
+@       IN      NS      srv-dns.tsuran.local.
+
+srv-dns     IN      A       192.168.50.240
+
+mypc   IN      A       192.168.50.251
+srv-hv1   IN      A       192.168.50.10
